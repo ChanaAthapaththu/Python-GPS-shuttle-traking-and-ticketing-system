@@ -87,7 +87,7 @@ with open('sample.txt') as f:
         print("Toatal Time Travelled: ",tdelta)
        
              #  API key 
-        gmaps = googlemaps.Client(key='AIzaSyBq1BVBkJ1HdIozp8nT75MuObWGQFTe-5w') 
+        gmaps = googlemaps.Client(key='') 
                 
              # calculating the distance 
         my_dist = gmaps.distance_matrix(location1,location2)['rows'][0]['elements'][0] 

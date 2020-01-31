@@ -4,7 +4,8 @@ import json
 import googlemaps 
   
 # Requires API key 
-gmaps = googlemaps.Client(key='AIzaSyBq1BVBkJ1HdIozp8nT75MuObWGQFTe-5w') 
+gmaps = googlemaps.Client(key='
+') 
   
 # Requires cities name 
 my_dist = gmaps.distance_matrix(' 6.9271,79.8612','7.4818,79.9579466')['rows'][0]['elements'][0] 
